@@ -1,0 +1,34 @@
+{
+  "name": "airplay-photos",
+  "version": "0.0.0",
+  "description": "A low level module for getting photos from iDevices",
+  "main": "index.js",
+  "dependencies": {
+    "airplay-server": "^1.1.0",
+    "patterns": "^1.0.2",
+    "plist": "^1.1.0",
+    "raop-stub": "^1.0.1"
+  },
+  "devDependencies": {
+    "standard": "^5.2.1"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/watson/airplay-photos.git"
+  },
+  "keywords": [
+    "airplay",
+    "photo",
+    "stream",
+    "event"
+  ],
+  "author": "Thomas Watson Steen <w@tson.dk> (https://twitter.com/wa7son)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/watson/airplay-photos/issues"
+  },
+  "homepage": "https://github.com/watson/airplay-photos#readme"
+}

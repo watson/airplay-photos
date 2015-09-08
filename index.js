@@ -77,6 +77,10 @@ var AirplayPhotos = function (name) {
   }
 
   function photo (req, res) {
+    req.on('end', function () {
+      res.end()
+    })
+
     self.emit('photo', req)
   }
 }

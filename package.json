@@ -1,6 +1,6 @@
 {
   "name": "airplay-photos",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A low level module for getting photos from iDevices",
   "main": "index.js",
   "dependencies": {
@@ -32,7 +32,7 @@
   },
   "homepage": "https://github.com/watson/airplay-photos#readme",
   "coordinates": [
-    52.249175,
-    -7.0604457
+    56.1460465,
+    10.202726
   ]
 }
